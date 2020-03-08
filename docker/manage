@@ -74,7 +74,7 @@ configureEnvironment () {
   export COMPOSE_PROJECT_NAME=${COMPOSE_PROJECT_NAME:-"cass"}
 
   # frontend
-  export API_URL=${API_URL:-http://api:8080}
+  export API_URL=${API_URL:-http://api:8080/api}
   export API_SERVICE_NAME=${API_SERVICE_NAME:-api}
   export API_PATH=${API_PATH:-/api}
   export RealIpFrom=${RealIpFrom:-127.0.0.0/16}
